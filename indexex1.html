@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scriptex1.js"></script>
+    <title>Exer 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scriptex1.js"></script>
+    <link href="estiloex1.css" rel="stylesheet">
+</head>
+<body>
+    <fieldset>
+        <legend>Cadastro de Livros</legend>
+
+        <label>Título</label>
+        <input type="text" name="titulo" id="titulo" placeholder="Título"><br>
+
+        <label>Descrição</label>
+        <textarea type="text" name="descricao" id="descricao" placeholder="Descrição"></textarea><br>
+
+        <label id="genero">Genero</label>
+        <select>
+            <option value="romance">Romance</option>
+            <option value="drama">Drama</option>
+            <option value="terror">Terror</option>
+            <option value="ficcao">Ficção</option>
+            <option value="tecnico">Tecnico</option>
+        </select><br>
+
+        <label>Autor</label>
+        <input type="search" name="autor" id="autor" value=" " placeholder="Autor"><br>
+
+        
+        <button id="add_catalogo">Adicionar a lista</button>
+
+    </fieldset>
+
+    <h1>Catálogo</h1>
+    <table id="catalogo">
+        <tr><th >Título</th><th>Descrição</th><th>Genero</th><th>Autor</th><th></th></tr>
+    </table>
+
+    <form action="https://rafaelescalfoni.net/web/livros.php" method="post">
+        <input type="hidden" id="catalogo_post" name="catalogo_post">
+        <input type="submit" value="Salvar no BD">
+    </form>
+</body>
+</html>

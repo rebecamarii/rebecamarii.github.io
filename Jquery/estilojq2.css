@@ -1,0 +1,15 @@
+h1{
+    border-bottom: solid 2px black;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+#container{
+    display: flex;
+}
+.left{
+    padding-right: 30px;
+    border-right: solid 2px black;
+}
+.right{
+    padding-left: 30px;
+}

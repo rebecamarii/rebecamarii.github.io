@@ -1,17 +1,12 @@
 body{
     background-image: url(img1.jpg);
     background-size: 100%;
-
 }
-header h1{
-    font-size: 80px;
-    margin: 0;
+/*HEADER*/
+#media{
+    float: right;
 }
-header img{
-    height: 200px;
-    
-}
-header a, ul{
+#media a, ul{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 1.3em;
@@ -19,20 +14,45 @@ header a, ul{
     margin: 0;
     list-style: none;
 }
-header a:hover{
+#media a:hover{
     border: 1px solid rgb(89, 10, 121);
     background-color:rgb(126, 20, 168) ;
 }
-#link{
-    background-color: rgb(116, 122, 109);
-    color: #fff;
-    font-size: 1.1em;
-    border-radius: 10px;
-}
-#cabeca{
+
+/*MAIN*/
+main #cabeca{
     text-align: center;
     color: white;
     width: 1350px;
-    padding: 0px 0 20px 0;
+    padding: 180px 0;
+   
+}
+#imagem{
+    height: 210px;
     position: fixed;
+}
+main h1{
+    font-size: 80px;
+    margin: 0;
+}
+main a, ul{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 10px;
+    margin: 0;
+    list-style: none;
+}
+main a:hover{
+    border: 1px solid rgb(89, 10, 121);
+    background-color:rgb(126, 20, 168) ;
+}
+
+#nome{
+    color: rgb(228, 0, 0);
+}
+#cf{
+    margin-top: -10px;
+    color: white;
+    padding-left: 15px;
 }

@@ -10,17 +10,37 @@
 
 <body>
     <header>
-        <img src="img3.jpg" id="imagem">
-        <div id="cabeca">
-            <h1 id="top">Meus Sites</h1>
+        <div id="media">
             <ul>
-                <li><a href="./siteRM/index1.html" target="_blank">Site 1</a></li>
-                <li><a href="./siteRM/index2.html" target="_blank">Site 2</a></li>
-                <li><a href="./siteRM/index3.html" target="_blank">Site 3</a></li>
+                <li>
+                    <a href="https://twitter.com/iramaceber"><i>T</i></a>
+                </li>
+                <li>
+                    <a href="https://pt-br.facebook.com/rebecamari.assumpcao"><i>F</i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/rebecamarii/"><i>I</i></a>
+                </li>
             </ul>
         </div>
     </header>
 
+    <main>
+        <img src="img3.jpg" id="imagem">
+
+        <div id="cabeca">
+            <h1 id="top">Meus Sites</h1>
+            <ul>
+                <li><a href="./siteRM/exer1/index1.html" target="_blank">Site 1</a></li>
+                <li><a href="./siteRM/exer2/index2.html" target="_blank">Site 2</a></li>
+                <li><a href="./siteRM/exer3/index3.html" target="_blank">Site 3</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p id="nome"><marquee>REBECA MARI ASSUMPÇÃO DOS SANTOS</marquee></p>
+        <h2 id="cf">CEFET/RJ</h2>
+    </footer>
     <script>
         //COLOR
         var area1 = window.document.getElementById("top");
@@ -36,6 +56,7 @@
         var area2 = window.document.getElementById("imagem");
         var fator_lupa1 = 2;
         var fator_lupa2 = 1;
+
         area2.addEventListener('mouseenter', entrar2);
         function entrar2() {
             area2.style.imageRendering;
@@ -48,7 +69,6 @@
             area2.style.width = (area2.clientWidth / fator_lupa1) + "px";
             area2.style.height = (area2.clientWidth * fator_lupa2) + "px";
         }
-
     </script>
 </body>
 </html>

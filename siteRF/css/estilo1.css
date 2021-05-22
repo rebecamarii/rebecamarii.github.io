@@ -1,0 +1,86 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+/*HEADER*/
+
+#inicio{
+    margin-left: 40px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-left: 50px; 
+}
+header h3{
+    font-size: 1.4em;
+    font-weight: bold; 
+    display: inline;
+}
+header nav{
+    float: right;
+    border: 2px solid;
+    border-color: rgb(205, 207, 205);
+    border-radius: 10px;
+    padding-right: 7px;
+    padding-top: 0;
+}
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 4px 1px;
+}
+header li{
+    float: left;  
+    margin-right: 15px;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 10px;
+}
+header a:hover{
+    border: 1px solid palevioletred;
+    background-color:palevioletred ;
+}
+#link{
+    background-color: rgb(116, 122, 109);
+    color: #fff;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+
+/*FIM DO HEADER*/
+
+/*MAIN*/
+main {
+    text-align: center;
+}
+main h1{
+    margin-bottom: 0;
+}
+main p{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+#centro{
+    margin: 210px 400px;   
+}
+#meio{
+    border: 1px solid;
+    border-color: rgb(205, 207, 205);
+    width: 500px;
+    height:160px;
+}
+#centro a{
+    background-color: rgb(116, 122, 109);
+    text-decoration: none;
+    color: #fff;
+    padding: 9px 13px;
+    font-size: 0.9em;
+    border-radius: 10px;
+}
+#centro a:hover{
+    border: 1px solid papayawhip;
+    background-color:palevioletred ;
+}
+/*FIM DO MAIN*/
